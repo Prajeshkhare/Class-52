@@ -1,0 +1,116 @@
+        
+            h1 {
+                color: rgb(217, 231, 21);
+                padding-right: 30px;
+            }
+
+            .header *{
+                border: solid;
+            }
+            
+            .header {
+                background-color: rgb(251, 251, 251);
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .site-description {
+                background-color: rgb(195, 182, 199);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            
+            .GAME1 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .p1 {
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+            } 
+
+
+            .p2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .GAME2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+
+            .networking-site {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+
+            p,h2 {
+                text-align: center;
+            }
+
+            body
+            {background-color: rgb(8, 19, 121);}
+
+            a:link {
+                color: rgb(165, 16, 153);
+            }
+
+            a:visited {
+                color: rgb(233, 10, 10);
+            }
+
+            .menu {
+                margin-right: 30px;
+            }
+
+            .menu a{
+                margin-left: 30px;
+            }
+
+            .p1 {
+                position: relative;
+            }
+
+            .p1{
+                position: absolute;
+                top: 60%;
+                left: 60%;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+            }
+
+            .p1:hover {
+                opacity: 1;
+            }
+            
+            .GAME1:hover img{
+                opacity: 0.33;
+            }
+
+
+            .p2 {
+                position: relative;
+            }
+
+            .p2{
+                position: absolute;
+                top: 60%;
+                left: 60%;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+            }
+
+            .p2:hover {
+                opacity: 1;
+            }
+            
+            .GAME2:hover img{
+                opacity: 0.33;
+            }
